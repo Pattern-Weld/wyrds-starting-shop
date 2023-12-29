@@ -1,0 +1,45 @@
+{
+  "id": "wyrds-starting-shop",
+  "title": "Wyrd's Starting Shop",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "item-piles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "This is a module that uses Item Piles to create a neat and organized shop designed to make things easy on newer players to Pathfinder 2e. Each section of the shop has basic items that are useful for adventuring, and a description to help guide players unsure of what to buy. Each description also links to AoN to encourage new players to explore and discover new items on their own, but this shop in itself should be enough for most parties to get by with the bare essentials.\n\nMake sure you have Item Piles installed first, and then go to compendiums, find the adventure and import it! You may want to delete the Wellspring Elixer section under Potions and Elixers if you aren't a fan of the idea of Mana potions in your games, and you may also wish to get rid of the Firearms section of the shop I made for gunslingers if your setting doesn't cater to that. Once everything looks in order, go through and set each of the folders that make up the shop to Observer, and your players should be good to shop!",
+  "authors": [
+    {
+      "name": "Wyrd",
+      "discord": "weirdventures"
+    }
+  ],
+  "packs": [
+    {
+      "name": "wyrds-starter-shop",
+      "label": "Wyrd's Starter Shop",
+      "path": "packs/wyrds-starter-shop",
+      "type": "Adventure",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
