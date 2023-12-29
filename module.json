@@ -2,6 +2,8 @@
   "id": "wyrds-starting-shop",
   "title": "Wyrd's Starting Shop",
   "version": "1.0.0",
+  "manifest": "https://raw.githubusercontent.com/Pattern-Weld/wyrds-starting-shop/main/module.json",
+  "download": "https://raw.githubusercontent.com/Pattern-Weld/wyrds-starting-shop/main/wyrds-starting-shop.zip",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
